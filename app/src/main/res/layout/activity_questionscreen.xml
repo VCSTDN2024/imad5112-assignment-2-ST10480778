@@ -13,7 +13,7 @@
         android:layout_width="300dp"
         android:layout_height="188dp"
         android:layout_marginBottom="452dp"
-        android:text="TextView"
+        android:text=""
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,11 +21,11 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/posBtn"
         android:layout_width="199dp"
         android:layout_height="60dp"
         android:layout_marginBottom="312dp"
-        android:text="Button"
+        android:text="True"
         android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,11 +33,11 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/negBtn"
         android:layout_width="193dp"
         android:layout_height="60dp"
         android:layout_marginBottom="204dp"
-        android:text="Button"
+        android:text="False"
         android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,11 +58,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/nextBtn"
         android:layout_width="196dp"
         android:layout_height="60dp"
         android:layout_marginBottom="112dp"
-        android:text="Button"
+        android:text="Next"
         android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
