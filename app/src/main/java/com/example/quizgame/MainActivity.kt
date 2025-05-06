@@ -1,5 +1,6 @@
 package com.example.quizgame
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -23,7 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         startBtn.setOnClickListener {
 
-
+        val intent = Intent(this ,QuestionScreen1::class.java)
+            startActivity(intent)
         }
 
 

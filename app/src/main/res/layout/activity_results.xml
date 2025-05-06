@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Results">
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="345dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="39dp"
+        android:background="@color/white"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reviewButton"
+        android:layout_width="111dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="244dp"
+        android:backgroundTint="@color/black"
+        android:text="Review"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="102dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="96dp"
+        android:text="Restart"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/commentTextView"
+        android:layout_width="221dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="68dp"
+        android:background="@color/white"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
