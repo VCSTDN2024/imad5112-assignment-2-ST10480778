@@ -7,8 +7,10 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import kotlin.system.exitProcess
 
 class ReviewScreen : AppCompatActivity() {
+    private lateinit var exitBtn:Button
     private lateinit var reviewButton: Button
     private lateinit var restartButton: Button
     private lateinit var commentTextView: TextView
@@ -23,6 +25,7 @@ class ReviewScreen : AppCompatActivity() {
         reviewTxt = findViewById(R.id.reviewTxt)
         reviewButton = findViewById(R.id.reviewButton)
         restartButton = findViewById(R.id.restartButton)
+        exitBtn = findViewById(R.id.exitBtn)
         commentTextView = findViewById(R.id.commentTextView)
         scoreTextView = findViewById(R.id.scoreTextView)
 
@@ -59,6 +62,10 @@ class ReviewScreen : AppCompatActivity() {
                 reviewTxt.text = "Something went wrong. No questions or answers found."
 
             }
+        }
+        exitBtn.setOnClickListener {
+            finish()
+            exitProcess(0)
         }
 
     }
