@@ -46,7 +46,27 @@
 ### 4. make the questions more randomised so the user is unable to cram the question pattern
 
 ## References
-Figure 1 :Contreras . R,2023. Estapados y Fondos de pantella Available at < https://pin.it/5SNj9oBgx >[Accessed 06 May 2025]
+### Figure 1 :Contreras . R,2023. Estapados y Fondos de pantella Available at < https://pin.it/5SNj9oBgx >[Accessed 06 May 2025]
+
+## Disclosure of AI Usage in My Assessment 
+ In the development of this project, I have used generative AI tools to assist in workflow parts of the assignment. Below is a detailed disclosure of where and how these tools were used: 
+1. Section(s) in which Generative AI was used: 
+•	Final part of my application: Correcting my app action work flow . 
+2. Name of AI Tool(s) Used: 
+•	ChatGPT (OpenAI) 
+3. Purpose/Intention Behind Use: 
+•	Initial Investigation: Utilized AI to conduct research on best practices for Android app development and GitHub Actions setup. 
+•	Correcting Grammar and Spelling: ChatGPT helped review and correct the grammar and clarity of my project report. 
+4. Date(s) in Which Generative AI Was Used: 
+•	Final part of my application: AI used on May 19, 2025, for reviewing the final report. 
+5. Link to the AI Chat(s) or Screenshots:
+   ![Screenshot 2025-05-19 220523](https://github.com/user-attachments/assets/93a3bab6-64eb-442b-9fbf-0faa430a615e)
+![Screenshot 2025-05-19 221002](https://github.com/user-attachments/assets/050ad643-d2bf-40d8-ba96-f262b15f72f2)
+
+
+ 
+
+
 
 
 
