@@ -2,6 +2,7 @@ package com.example.quizgame
 
 import android.content.Intent
 import android.graphics.Color
+import android.graphics.Typeface
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -31,7 +32,6 @@ class QuestionScreen1 : AppCompatActivity() {
         )
         val answers = booleanArrayOf(true, false, false, true, true)
     }
-
 
 
     private var currentQuestionIndex =0
@@ -65,17 +65,22 @@ class QuestionScreen1 : AppCompatActivity() {
                 posBtn.isEnabled = true
                 negBtn.isEnabled=true
             }else{
-                val intent = Intent(this,Results::class.java)
+                val intent = Intent(this,ReviewScreen::class.java)
                 intent.putExtra("score",score)
+                intent.putExtra("questions", questions)
+                intent.putExtra("answers", answers)
                 startActivity(intent)
                 finish()
             }
         }
         nextBtn.isEnabled = false
+
     }
     private fun displayQuestion() {
 
         displayText.text = questions[currentQuestionIndex]
+        displayText.textSize=25f
+        displayText.setTypeface(null,Typeface.BOLD)
     }
 
 
@@ -85,10 +90,14 @@ class QuestionScreen1 : AppCompatActivity() {
        if (userAnswer == correctAnswer){
             ResultsText.text="well done! your answer is correct "
             ResultsText.setTextColor(Color.GREEN)
+           ResultsText.textSize=25f
+           ResultsText.setTypeface(null,Typeface.BOLD)
             score++
         } else{
             ResultsText.text="incorrect"
             ResultsText.setTextColor(Color.RED)
+           ResultsText.textSize=25f
+           ResultsText.setTypeface(null,Typeface.BOLD)
         }
        posBtn.isEnabled = false
        negBtn.isEnabled = false
